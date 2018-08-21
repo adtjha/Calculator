@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7671200088643158", enable_page_level_ads: true});
+    </script>
+  </head>
+  <body>
+    <div class="calc">
+      <div class="display">
+        <p id="display" class="pre-scrollable"></p>
+      </div>
+      <div class="buttons">
+        <div class="R1">
+          <button id="clear" onclick="update(11)" value="c">C</button>
+          <button type="button" onclick="update(17)">x<sup>2</sup>
+          </button>
+          <button type="button" name="button" onclick="update(18)">1\x</button>
+          <button class="div" onclick="update(14)">/</button>
+        </div>
+        <div class="R2">
+          <button id="seven" onclick="update(7)" value="7">7</button>
+          <button id="eight" onclick="update(8)" value="8">8</button>
+          <button id="nine" onclick="update(9)" value="9">9</button>
+          <button class="mul" onclick="update(15)">x</button>
+        </div>
+        <div class="R3">
+          <button id="four" onclick="update(4)" value="4">4</button>
+          <button id="five" onclick="update(5)" value="5">5</button>
+          <button id="six" onclick="update(6)" value="6">6</button>
+          <button class="sub" onclick="update(13)">-</button>
+        </div>
+        <div class="R4">
+          <button id="one" onclick="update(1)" value="1">1</button>
+          <button id="two" onclick="update(2)" value="2">2</button>
+          <button id="three" onclick="update(3)" value="3">3</button>
+          <button class="add" onclick="update(12)">+</button>
+        </div>
+        <div class="R5">
+          <button id="zero" onclick="update(0)" value="0">0</button>
+          <button id="zero2" onclick="update(10)" value="00">00</button>
+          <button class="deci" onclick="update(16)">.</button>
+          <button class="equ disbaled" onclick="calc()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/app.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').then(function () {
+          console.log("Service Worker Enabled !");
+        });
+      }
+    </script>
+  </body>
+</html>

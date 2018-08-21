@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+}
+.display {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 99%;
+  height: 125px;
+  background: rgba(230, 230, 230, 0.6);
+  border: 6px solid #d0d0d0;
+  border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.pre-scrollable {
+  overflow: scroll;
+  margin: 2% auto;
+}
+.buttons {
+  width: 100%;
+  margin: auto 0%;
+  padding: 1% 0;
+  background: #d0d0d0;
+}
+.R1,
+.R2,
+.R3,
+.R4,
+.R5 {
+  margin: 4px 5% auto;
+  margin-bottom: 5px;
+}
+button {
+  font-size: 75px;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  border: 0;
+  width: 24%;
+  padding: 0;
+}
+button:hover {
+  background: #333;
+  color: #fff;
+  box-shadow: 0px 0px 9px 1px #5d5d5d;
+}
+.calc {
+  margin: 0 4%;
+  padding: 9px;
+}
+p {
+  font-size: 100px;
+}
+@media (max-width:1024px) {
+  .display {
+    width: 97.6%;
+    height: 310px;
+    border: 7px solid #d0d0d0;
+  }
+  .calc {
+    margin: 4%;
+    padding: 10px;
+  }
+  p {
+    font-size: 250px;
+  }
+  button {
+    font-size: 75px;
+    padding: 2%;
+  }
+}
+@media (max-width:425px) {
+  .display {
+    width: 97%;
+    height: 100px;
+    padding: 5% 0;
+  }
+  .calc {
+    margin: 3%;
+    padding: 6% 0;
+  }
+  p {
+    font-size: 80px;
+  }
+  button {
+    font-size: 45px;
+    width: 23%;
+    padding: 0;
+    margin: 2% auto;
+  }
+}
