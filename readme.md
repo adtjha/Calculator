@@ -1,7 +1,5 @@
 # Calculator
 
----
-
 This is an implementation of a pocket sized calculator. It can perform the following operations.
 
 - Addition
