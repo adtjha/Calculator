@@ -55,10 +55,12 @@ p {
 }
 
 .link {
+  width: -webkit-fill-available;
   margin: auto;
   display: flex;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .link a {
