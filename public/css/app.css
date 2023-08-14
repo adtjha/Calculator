@@ -12,8 +12,8 @@ body {
   background: rgba(230, 230, 230, 0.6);
   border: 6px solid #d0d0d0;
   border-radius: 12px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .pre-scrollable {
   overflow: scroll;
@@ -53,7 +53,20 @@ button:hover {
 p {
   font-size: 100px;
 }
-@media (max-width:1024px) {
+
+.link {
+  margin: auto;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.link a {
+  font-size: larger;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
   .display {
     width: 97.6%;
     height: 310px;
@@ -71,7 +84,7 @@ p {
     padding: 2%;
   }
 }
-@media (max-width:425px) {
+@media (max-width: 425px) {
   .display {
     width: 97%;
     height: 100px;
