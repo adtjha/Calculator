@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/app.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/app.css" />
     <title>Calculator</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      async="async"
+      src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
     <script>
-      (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7671200088643158", enable_page_level_ads: true});
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-7671200088643158",
+        enable_page_level_ads: true,
+      });
     </script>
   </head>
   <body>
@@ -20,7 +26,8 @@
       <div class="buttons">
         <div class="R1">
           <button id="clear" onclick="update(11)" value="c">C</button>
-          <button type="button" onclick="update(17)">x<sup>2</sup>
+          <button type="button" onclick="update(17)">
+            x<sup style="font-size: xx-large">2</sup>
           </button>
           <button type="button" name="button" onclick="update(18)">1\x</button>
           <button class="div" onclick="update(14)">/</button>
@@ -53,8 +60,8 @@
     </div>
     <script src="scripts/app.js" charset="utf-8"></script>
     <script type="text/javascript">
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').then(function () {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js").then(function () {
           console.log("Service Worker Enabled !");
         });
       }
