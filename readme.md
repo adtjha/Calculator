@@ -11,5 +11,5 @@ This is an implementation of a pocket sized calculator. It can perform the follo
 
 Here's the link to it. 
 
-https://bookie-a99bb.firebaseapp.com/
+[https://calculator-ivory-one.vercel.app/](https://calculator-ivory-one.vercel.app/)
 
